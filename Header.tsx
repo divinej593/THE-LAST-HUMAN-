@@ -1,0 +1,2 @@
+import Link from "next/link";
+export function Header(){return <header className="header"><Link className="brand" href="/"><span>◇</span> THE LAST HUMAN</Link><nav><Link href="/create">CREATE</Link><Link href="/collection">COLLECTION</Link><Link href="/holder-hub">HOLDER HUB</Link><Link href="/archive">ARCHIVE</Link></nav></header>}
